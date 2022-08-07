@@ -10,6 +10,8 @@ done
 
 - the variable item recive one value of the list per iteration
 
+- the break can be use to finish the loop
+
 ## IFS
 
 The enviroment variable IFS(Internal Field Separator) has a list of separators that the shell bash use to define de feild separatos, the default values are space, tab and newline.
