@@ -1,5 +1,7 @@
 # FUNTIONS
 
+- the command typeset -f show the function that was created in the bash
+
 ## SYNTAX
 
 ```
