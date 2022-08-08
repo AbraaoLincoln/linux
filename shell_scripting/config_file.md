@@ -15,7 +15,7 @@ the config files can be use to auto config enviroment variables, functions and a
 ## Files
 
 | File         | Description |
-|;-------------|;------------|
+|:-------------|:------------|
 | /etc/profile | its a file of initialization, get executed on login and is valid for all system; it has environment variables and initialization programs |
 | /etc/bashrc or /etc/bash.bashrc | its a file of initialization, is valid for all system; it is executed by .bashrc for each shell bash initialized, it has function and aliases |
 | ~/.bash_profile | if exist, get executed after /etc/profile on login |
