@@ -24,3 +24,7 @@ the config files can be use to auto config enviroment variables, functions and a
 | ~/.bashrc | get executed when the bash is initialized on interactive mode |
 | ~/inputrc | it has variable and config of the mode of operation of bash regarding the keys |
 | ~/bash_logout | get executed on logout | 
+
+## BASH_ENV
+
+When the shell is iniatialized to execute a script, it check the enviroment variable BASH_ENV to see if there is any command of iniatialized that needs to be executed, by default the variable is not config
