@@ -38,3 +38,8 @@ line 1
 line 2
 EOF
 ```
+
+```
+# to redirect a string to a command
+cat <<< "string"
+```
