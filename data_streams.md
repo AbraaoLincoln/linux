@@ -34,7 +34,7 @@ echo "text sample" |& cat
 
 # Redirecting Stdout and Stderr
 
-To do this, it is necessary to especify the file descriptor of stdout and stderror before the redirect sing.
+To do this, it is necessary to specify the file descriptor of stdout and stderr before the redirect sign.
 
 ```
 # for stdout
