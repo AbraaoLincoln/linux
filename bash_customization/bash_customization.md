@@ -8,6 +8,8 @@ user@host:~/document $
 ```
 After the string is decoded, it is expanded via parameter expansion, command substitution, arithmetic expansion, and quote removal, subject to the value of the promptvars shell option.
 
+The enviroment variable PROMPT_COMMAND can be use to have a dynamic prompt, it store a command that gets excuted just before the prompt is printed. So we can use it to set a new value to the PS1 variable.
+
 ## Special Prompt Variables
 
 We can use this variables to customize the PS1.
@@ -56,7 +58,7 @@ We can use this variables to customize the PS1.
 
 | variable | description |
 |----------|-------------|
-| \$ | If you are not root, inserts a "$"; if you are root, you get a "#"  (root uid = 0) |
+| \\$ | If you are not root, inserts a "$"; if you are root, you get a "#"  (root uid = 0) |
 
 ### History info
 
@@ -106,6 +108,7 @@ To add color we put before the text, the color it should be, we have to use the 
 | Purple | \e[35m | \e[45m |
 | Turquoise | \e[36m | \e[46m |
 | Light Gray | \e[37m | \e[47m |
+| reset to deafult color | \e[00m |
 
 ### Text format code
 
