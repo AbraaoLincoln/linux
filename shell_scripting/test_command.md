@@ -20,9 +20,10 @@ or
 
 ```
 #[] in the if means the test command 
-#it is necessary to have a space in the beginning and in the end between the [], the condition goes between the spaces
+#[[]] is the new way of using test command 
+#it is necessary to have a space in the beginning and in the end between the [[]], the condition goes between the spaces
 
-if [ condition ]; then 
+if [[ condition ]]; then 
     commands
 fi
 ```
@@ -64,3 +65,13 @@ fi
 | -G file     | check if the file exists and its deafult group is the same as the current user |
 | file1 -nt file2 | check if the file1 is newer than file2 |
 | file1 -ot file2 | check if the file1 is older than file2 |
+
+# FOR MORE INFO
+
+```
+help test
+
+help [
+
+help [[
+```
