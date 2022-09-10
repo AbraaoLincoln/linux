@@ -32,6 +32,14 @@ Is responsible for piping, the output generates by the command on the left side 
 echo "text sample" |& cat
 ```
 
+# The &
+
+The & sign can be used to specify that the number should be interpreted as a file descriptor and not as file name.
+
+```
+echo "text sample" >&2
+```
+
 # Redirecting Stdout and Stderr
 
 To do this, it is necessary to specify the file descriptor of stdout and stderr before the redirect sign.
@@ -54,6 +62,11 @@ echo "text sample" 1> file_msg 2> file_debug
 ```
 # both same file
 echo "text sample" &> file
+```
+
+```
+# both same file
+echo "text sample" > file 2>&1
 ```
 
 

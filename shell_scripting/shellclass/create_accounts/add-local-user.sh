@@ -36,3 +36,5 @@ echo "User name: ${USERNAME}"
 echo "Password: ${PASSWORD}"
 
 echo "Host: ${HOSTNAME}"
+
+exit 0

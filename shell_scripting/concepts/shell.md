@@ -73,3 +73,23 @@ echo "${busy}ing"
 hard='hard'
 echo "${hard}${busy}"
 ```
+
+# Bash Command Lookup
+
+When a command is entered the bash will look for.
+
+- a function with that name
+
+- a shell buildin command with that name
+
+- the variable PATH contanis a list of dir where the shell can lookp for the command in the case it doens't fin in the previes places
+
+## which command
+
+The command whitch can be used to show which command gonna be used.
+
+```
+which head
+
+which -a head
+```
