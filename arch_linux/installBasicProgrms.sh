@@ -39,3 +39,7 @@ pacman -S --noconfirm nemo
 echo "instaling web broswer"
 
 pacman -S --noconfirm firefox
+
+echo "install zip and unzip programs"
+
+pacman -S -noconfirm zip unzip
