@@ -7,10 +7,10 @@ configuration {
 
 * {
     font:            "Times New Roman 12";
-    separatorcolor: red;
+    //separatorcolor: red;
     alternate-normal-background: #292442;
     normal-background: #292442;
-    selected-normal-background: transparent;
+    selected-normal-background: #cbe3e7;
 }
 
 window {
@@ -18,7 +18,7 @@ window {
     location:   north west;
     width:      20%;
     padding:    4px;
-    x-offset:	4px;
+    x-offset:   0px;
     background-color: #1b182c;
     background-color: rgba(27, 24, 44, 90%);
     border: 0;
@@ -60,7 +60,7 @@ element-text {
 }
 
 element-text selected {
-    background-color: red;
+    text-color: #1b182c;
 }
 
 element-icon {
