@@ -1,0 +1,71 @@
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+}
+
+/* Insert theme modifications after this */
+
+* {
+    font:            "Times New Roman 12";
+    separatorcolor: red;
+    alternate-normal-background: #292442;
+    normal-background: #292442;
+    selected-normal-background: transparent;
+}
+
+window {
+    anchor:     north west;
+    location:   north west;
+    width:      20%;
+    padding:    4px;
+    x-offset:	4px;
+    background-color: #1b182c;
+    background-color: rgba(27, 24, 44, 90%);
+    border: 0;
+    transparency: "real";
+    children:   [ custom-box ];
+}
+
+custom-box {
+    orientation: vertical;
+    children:   [ entry, listview ];
+}
+
+listview {
+    layout:     vertical;
+    spacing:    0;
+    lines:      30;
+    scrollbar: false;
+}
+
+entry {
+    expand:     false;
+    width:      10em;
+    text-color: #cbe3e7;
+    font:       "Times New Roman 15";
+    background-color: #1b182c;
+}
+
+element {
+    margin: 10;
+    border-radius: 10px;
+    padding: 0 0 0 10;
+    spacing: 10;
+}
+
+element-text {
+    text-color: #cbe3e7;
+    padding: 5px;
+    margin: 0;
+}
+
+element-text selected {
+    background-color: red;
+}
+
+element-icon {
+    text-color: #cbe3e7;
+    padding: 5px;
+    margin: 0;
+}
+
